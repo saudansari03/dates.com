@@ -1,0 +1,59 @@
+body{
+    font-family: "Nunito", sans-serif;
+    background-color:#e6a9f0;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+h2{
+    color:black;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+p{
+    color:white;
+    /* font-size:100; */
+    font-weight:1.125rem;
+    line-height:2.0;
+}
+#mainNavbar .navbar-brand{
+    color:red;
+    padding:0px;
+    font-size: 30px;
+}
+#mainNavbar .nav-Link{
+    color:white;
+}
+#mainNavbar .nav-Link:hover{
+    color:#ea1c2c
+
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #5b3f5f;
+}
+.nav-item{
+    margin: 20px;
+}
+#headingGroup span{
+    color:red;
+}
+#headingGroup h1{
+    font-weight:100
+}
+.navbar.scrolled{
+    background-color:rgb(222, 192, 222);
+    transition: background-color 500ms
+}
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-size:3rem;
+    }}
+
+        
+ #tree{
+        height:70px;
+        width:70px;
+    }
